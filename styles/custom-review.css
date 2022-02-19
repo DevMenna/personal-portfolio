@@ -1,0 +1,14 @@
+.reviews{
+    padding: 0 50px 0 50px;
+}
+
+.profile-circle{
+    background-image: url("../images/AvatarMaker\ \(2\)_auto_x2.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+.comment{
+    padding-top: 5%;
+}

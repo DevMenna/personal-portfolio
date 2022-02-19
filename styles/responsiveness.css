@@ -1,0 +1,131 @@
+@media screen and (min-width: 896px) {
+    .header-text{
+        align-items: flex-start;
+    }
+
+    .header-items{
+        flex-wrap: wrap;
+        padding-left: 0;
+        justify-content: flex-end;
+    }
+
+    .pricing-cards{
+        justify-content: center;
+        width: 100%;
+        margin-right: 0;
+    }
+
+    .personal-info{
+        margin-left: 10%;
+    }
+
+    .author-details h1{
+        font-size: 40px;
+    }
+
+    #dev-menna-sparkle{
+        display:block ;
+    }
+
+    #dev-menna{
+        display: none;
+    }
+  }
+
+  @media screen and (max-width: 896px) {
+      header{
+          flex-direction: column;
+          margin-bottom: 5px;
+      }
+    .header-text{
+        align-items: flex-start;
+    }
+
+    .header-items{
+        flex-wrap: wrap;
+        padding-left: 0;
+        justify-content: flex-end;
+    }
+
+    .header{
+        padding-bottom: 0;
+    }
+
+      .about-me{
+          padding: 0;
+          margin: 0;
+      }
+
+      .author-details h1{
+        font-size: 16px;
+        margin-bottom: 5px;
+    }
+
+    .author-pic{
+        margin: 0;
+        margin-right: 10px;
+    }
+
+    .container{
+        padding: 10px;
+    }
+
+    .cv{
+        margin-bottom: 7px;
+    }
+
+    .what-i-do ,.pricing-div,.contact ,.reviews , .fun-facts {
+        padding: 0;
+    }
+
+    .details-about-me{
+        flex-direction: column;
+    }
+    .left-side , .right-side{
+        width: 100%;
+    }
+
+    .fun-cards{
+        flex-direction: column-reverse;
+        justify-content: center;
+        padding: 40px;
+    }
+
+    .fun-item{
+        width: 100%;
+        margin-bottom: 7px;
+    }
+
+    .contact-container{
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .info-card{
+        margin: 0;
+        font-size: 60%;
+    }
+
+    form{
+        width: 16rem;
+        align-items: baseline;
+    }
+
+    #fname ,#lname,#country,#subject{
+
+        width: 20em;
+
+    }
+
+    footer{
+        flex-direction: column;
+    }
+
+    #dev-menna-sparkle{
+        display:none ;
+    }
+
+    #dev-menna{
+        display: block;
+    }
+  }
